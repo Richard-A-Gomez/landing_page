@@ -8,7 +8,6 @@
 
 
 
-
 .main{
     height: 400px;
     position: relative;
@@ -19,6 +18,9 @@
     border: 0%;
 }
 
+
+
+
 video{
     position: absolute;
     top:0;
@@ -27,6 +29,9 @@ video{
     height: 100%;
     object-fit: cover;
 }
+
+
+
 
 .capa{
     position:absolute;
@@ -48,6 +53,8 @@ video{
     padding-right: 10px;
 
 }
+
+
 
 .pocket a:hover{
     position: relative;
@@ -81,6 +88,9 @@ video{
     position: relative;
     z-index: 2;
 }
+
+
+
 
 .line{
     height: 40px;
@@ -153,5 +163,158 @@ video{
 
 
 
+.cards{
+    margin-top: 200px;
+}
+
+.cards h2{
+    color: gold;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.servicios{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.icon2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.contacto{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+
+.contacto h2{
+ color: white;
+ font-size: 30px;
+}
+.números{
+    display: flex;
+    flex-direction: row;
+    color: darkorange;
+    font-size: 20px;
+}
+
+.ubi1{
+    margin-right: 40px;
+}
+
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    height: 200px;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .main {
+        height: auto;
+    }
+
+    .pocket {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .pocket a {
+        font-size: medium;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .pocket img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .hero img {
+        height: 250px;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .txt h1 {
+        font-size: 40px;
+    }
+
+    .txt p {
+        font-size: 20px;
+    }
+
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .cards h2 {
+        font-size: 30px;
+    }
+
+    .servicios {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .contacto {
+        margin: 50px 20px;
+    }
+
+    .números {
+        flex-direction: column;
+    }
+
+    .ubi1 {
+        margin-right: 0;
+    }
+
+    footer img {
+        height: 100px;
+    }
+}
 
 
